@@ -10,7 +10,7 @@ function reverseStr(string) {
 К примеру, если передать массив [19, 5, 42, 2, 77] - то ответ должен быть равен 7. */
 
 function sumSmallestNum(arr) {
-    if (arr.lenght < 4 ) {
+    if (arr.lenght < 4) {
         return false;
     }
     arr.sort((a,b) => a - b);
