@@ -34,8 +34,8 @@ function removeFirstAndLast(str) {
 
 function isEvenOrOdd(num) {
     if (num % 2 == 0) {
-       return ('even');
+       return ('Четное');
     } else {
-       return ('odd');
+       return ('Нечетное');
     }
 }
